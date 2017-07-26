@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		783F46B61F2833B10042A27E /* Gigi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783F46AC1F2833B00042A27E /* Gigi.framework */; };
+		783F46BB1F2833B10042A27E /* GigiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F46BA1F2833B10042A27E /* GigiTests.m */; };
+		783F46BD1F2833B10042A27E /* Gigi.h in Headers */ = {isa = PBXBuildFile; fileRef = 783F46AF1F2833B00042A27E /* Gigi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783F46D11F2834350042A27E /* UIViewController+Gigi.h in Headers */ = {isa = PBXBuildFile; fileRef = 783F46CF1F2834350042A27E /* UIViewController+Gigi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783F46D21F2834350042A27E /* UIViewController+Gigi.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F46D01F2834350042A27E /* UIViewController+Gigi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		783F46B71F2833B10042A27E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783F46A31F2833B00042A27E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783F46AB1F2833B00042A27E;
+			remoteInfo = Gigi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		783F46AC1F2833B00042A27E /* Gigi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gigi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783F46AF1F2833B00042A27E /* Gigi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gigi.h; sourceTree = "<group>"; };
+		783F46B01F2833B00042A27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783F46B51F2833B10042A27E /* GigiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GigiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783F46BA1F2833B10042A27E /* GigiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GigiTests.m; sourceTree = "<group>"; };
+		783F46BC1F2833B10042A27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783F46CF1F2834350042A27E /* UIViewController+Gigi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Gigi.h"; sourceTree = "<group>"; };
+		783F46D01F2834350042A27E /* UIViewController+Gigi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Gigi.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783F46A81F2833B00042A27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783F46B21F2833B10042A27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783F46B61F2833B10042A27E /* Gigi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783F46A21F2833B00042A27E = {
+			isa = PBXGroup;
+			children = (
+				783F46AE1F2833B00042A27E /* Gigi */,
+				783F46B91F2833B10042A27E /* GigiTests */,
+				783F46AD1F2833B00042A27E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		783F46AD1F2833B00042A27E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783F46AC1F2833B00042A27E /* Gigi.framework */,
+				783F46B51F2833B10042A27E /* GigiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		783F46AE1F2833B00042A27E /* Gigi */ = {
+			isa = PBXGroup;
+			children = (
+				783F46AF1F2833B00042A27E /* Gigi.h */,
+				783F46B01F2833B00042A27E /* Info.plist */,
+				783F46CF1F2834350042A27E /* UIViewController+Gigi.h */,
+				783F46D01F2834350042A27E /* UIViewController+Gigi.m */,
+			);
+			path = Gigi;
+			sourceTree = "<group>";
+		};
+		783F46B91F2833B10042A27E /* GigiTests */ = {
+			isa = PBXGroup;
+			children = (
+				783F46BA1F2833B10042A27E /* GigiTests.m */,
+				783F46BC1F2833B10042A27E /* Info.plist */,
+			);
+			path = GigiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		783F46A91F2833B00042A27E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783F46BD1F2833B10042A27E /* Gigi.h in Headers */,
+				783F46D11F2834350042A27E /* UIViewController+Gigi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		783F46AB1F2833B00042A27E /* Gigi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783F46C01F2833B10042A27E /* Build configuration list for PBXNativeTarget "Gigi" */;
+			buildPhases = (
+				783F46A71F2833B00042A27E /* Sources */,
+				783F46A81F2833B00042A27E /* Frameworks */,
+				783F46A91F2833B00042A27E /* Headers */,
+				783F46AA1F2833B00042A27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gigi;
+			productName = Gigi;
+			productReference = 783F46AC1F2833B00042A27E /* Gigi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		783F46B41F2833B10042A27E /* GigiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783F46C31F2833B10042A27E /* Build configuration list for PBXNativeTarget "GigiTests" */;
+			buildPhases = (
+				783F46B11F2833B10042A27E /* Sources */,
+				783F46B21F2833B10042A27E /* Frameworks */,
+				783F46B31F2833B10042A27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783F46B81F2833B10042A27E /* PBXTargetDependency */,
+			);
+			name = GigiTests;
+			productName = GigiTests;
+			productReference = 783F46B51F2833B10042A27E /* GigiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783F46A31F2833B00042A27E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = qiliu;
+				TargetAttributes = {
+					783F46AB1F2833B00042A27E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+					783F46B41F2833B10042A27E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 783F46A61F2833B00042A27E /* Build configuration list for PBXProject "Gigi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 783F46A21F2833B00042A27E;
+			productRefGroup = 783F46AD1F2833B00042A27E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783F46AB1F2833B00042A27E /* Gigi */,
+				783F46B41F2833B10042A27E /* GigiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783F46AA1F2833B00042A27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783F46B31F2833B10042A27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783F46A71F2833B00042A27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783F46D21F2834350042A27E /* UIViewController+Gigi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783F46B11F2833B10042A27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783F46BB1F2833B10042A27E /* GigiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		783F46B81F2833B10042A27E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783F46AB1F2833B00042A27E /* Gigi */;
+			targetProxy = 783F46B71F2833B10042A27E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		783F46BE1F2833B10042A27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		783F46BF1F2833B10042A27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		783F46C11F2833B10042A27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Gigi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.clouddesktop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		783F46C21F2833B10042A27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Gigi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.clouddesktop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		783F46C41F2833B10042A27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GigiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.clouddesktop.GigiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		783F46C51F2833B10042A27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GigiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.clouddesktop.GigiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783F46A61F2833B00042A27E /* Build configuration list for PBXProject "Gigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783F46BE1F2833B10042A27E /* Debug */,
+				783F46BF1F2833B10042A27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783F46C01F2833B10042A27E /* Build configuration list for PBXNativeTarget "Gigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783F46C11F2833B10042A27E /* Debug */,
+				783F46C21F2833B10042A27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783F46C31F2833B10042A27E /* Build configuration list for PBXNativeTarget "GigiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783F46C41F2833B10042A27E /* Debug */,
+				783F46C51F2833B10042A27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 783F46A31F2833B00042A27E /* Project object */;
+}

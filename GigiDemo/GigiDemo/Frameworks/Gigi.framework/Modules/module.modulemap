@@ -1,0 +1,6 @@
+framework module Gigi {
+  umbrella header "Gigi.h"
+
+  export *
+  module * { export * }
+}
